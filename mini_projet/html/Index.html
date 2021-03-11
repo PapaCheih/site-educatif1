@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Papa Cheikh Diagne" />
+	<link rel="stylesheet" href="C:\Users\thinkpad\Desktop\mini_projet\CSS\mini_projet.css">
+	<title>Document</title>
+	<style type="text/css">
+		body{background-color: #FF866A;}
+		p{font-size: 20px;
+			font-family: arial;
+			margin: 10px;}
+			h3{text-align: center;
+				font-family: arial;
+				font-style: italic;}
+	</style>
+</head>
+<body>
+	<ol>
+  <li><a href="Index.html">Home</a></li>
+ <li class="deco"><a href="Conjugaison.html">Conjugaison</a></li>
+  <li class="deco"><a href="Vocabulaire.html">Vocabulaire</a></li>
+  <li class="deco"><a href="Orthographe.html">Orthographe</a></li>
+  <li class="deco"><a href="Exercice.html">Exercices</a></li>
+  <li class="contact"><a href="contact.html">Contact</a></li>
+</ol>
+<br>
+
+<div>
+<img src="primaire.jpg" height="400" width=100%>
+<img src="left.gif" id="gauche" class="left" alt="" onclick="i--; if(i==-1) i=2; document.images[0].src=T[i]">
+<img src="right.gif" id="right" class="right" alt="" onclick="i++; if(i==4) i=0; document.images[0].src=T[i]">
+<br> <hr>
+</div>  
+<h3>Objectif</h3> 
+  <p>
+  	Ce site web a pour objectif d'aider les élèves du primaire à comprendre certaines règles de base de <br>
+  	la langue française. Nous allons abordé ensemble la conjugaison des verbes du premier groupe aux temps <br>
+  	simples de l'indicatif,certaines notions d'orthographe grammaticale et de vocabulaire.<br>
+  </p>
+
+<script type="text/javascript">
+	T=['primaire.jpg' , 'school.jpg' , 'kid.jpg', 'french.jpg'];
+	i=0;
+</script>
+</body>
+</html> 

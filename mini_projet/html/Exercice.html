@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Papa Cheikh Diagne" />
+
+	<link rel="stylesheet" href="C:\Users\thinkpad\Desktop\mini_projet\CSS\mini_projet.css">
+	<script type="text/javascript" src='C:\Users\thinkpad\Desktop\mini_projet\JS\Exercices.js'></script>
+	<title>Document</title>
+</head>
+<body>
+	     <ol>
+  <li class="deco"><a href="index.html">Home</a></li>
+  <li class="deco"><a href="Conjugaison.html">Conjugaison</a></li>
+  <li class="deco"><a href="Vocabulaire.html">Vocabulaire</a></li>
+  <li class="deco"><a href="Orthographe.html">Orthographe</a></li>
+  <li class="deco"><a href="Exercice.html">Exercices</a></li>
+  <li class="contact"><a href="contact.html">Contact</a></li>
+</ol>
+<br><br><br>
+
+<h3>Le conjugueur!</h3>
+<p>Cette mini application permet de conjuguer les verbes du 1<sup>er</sup> au temps simple de l'indicatif <br>
+	Il suffit juste de rentrer le verbe de votre choix. <br>
+</p>
+	<div id="pge"><fieldset><legend>Conjugaison des verbes du 1er groupe</legend>
+    <p><label><input id="npt" type="text" value="" placeholder="Ex= jouer"> Choix du verbe à conjuger </label><input type="button" value="Ok !" onclick="conjugue()"></p>
+    <table>
+        <tr>
+            <th><div id="pre"></div></th>
+            <th><div id="fut"></div></th>
+            <th><div id="pas"></div></th>
+            <th><div id="imp"></div></th>
+        </tr>
+    </table>
+    <br><br><br>
+    <h3>QUIZZ </h3>
+    
+    <div id="res"></div>
+<hr />
+<form id="form1">
+<p>
+<div>Le jardinier ... planté des fleurs.</div>
+<input type="radio" id="ch0_0" name="choix0" value="0"><label for="ch0_0">a</label><br/>
+<input type="radio" id="ch0_1" name="choix0" value="1"><label for="ch0_1">à</label><br/>
+</p>
+<p>
+<div>Mon frère ... ma soeur regardent la télé.</div>
+<input type="radio" id="ch1_0" name="choix1" value="0"><label for="ch1_0">est</label><br/>
+<input type="radio" id="ch1_1" name="choix1" value="1"><label for="ch1_1">et</label><br/>
+</p>
+<p>
+<div>Mes camarades et moi (réviser à l'imparfait) la maison.</div>
+<input type="radio" id="ch2_0" name="choix2" value="0"><label for="ch2_0">révisait</label><br/>
+<input type="radio" id="ch2_1" name="choix2" value="1"><label for="ch2_1">révises</label><br/>
+<input type="radio" id="ch2_2" name="choix2" value="2"><label for="ch2_2">révisions</label><br/>
+<input type="radio" id="ch2_3" name="choix2" value="3"><label for="ch2_3">révisaient</label>
+</p>
+<div>Samedi on ira ... l'anniversaire.</div>
+<input type="radio" id="ch0_0" name="choix3" value="0"><label for="ch3_0">a</label><br/>
+<input type="radio" id="ch0_1" name="choix3" value="1"><label for="ch3_1">à</label><br/>
+</p>
+<p>
+<div>La couleur de ma chambre ... bleue.</div>
+<input type="radio" id="ch1_0" name="choix4" value="0"><label for="ch4_0">est</label><br/>
+<input type="radio" id="ch1_1" name="choix4" value="1"><label for="ch4_1">et</label><br/>
+</p>
+<p>
+<div>Demain je (chanter au futur simple) pour maman.</div>
+<input type="radio" id="ch2_0" name="choix5" value="0"><label for="ch5_0">chanterai</label><br/>
+<input type="radio" id="ch2_1" name="choix5" value="1"><label for="ch5_1">chanta</label><br/>
+<input type="radio" id="ch2_2" name="choix5" value="2"><label for="ch5_2">chantes</label><br/>
+<input type="radio" id="ch2_3" name="choix5" value="3"><label for="ch5_3">chanterez</label>
+</p>
+<p>
+<div>Trouvez l'antonyme de <strong>courage</strong></div>
+<input type="radio" id="ch2_0" name="choix6" value="0"><label for="ch6_0">audace</label><br/>
+<input type="radio" id="ch2_1" name="choix6" value="1"><label for="ch6_1">fuite</label><br/>
+<input type="radio" id="ch2_2" name="choix6" value="2"><label for="ch6_2">peur</label><br/>
+</p>
+<p>
+<div>Quel est le radical de <strong>refroidir</strong></div>
+<input type="radio" id="ch2_0" name="choix7" value="0"><label for="ch7_0">froid</label><br/>
+<input type="radio" id="ch2_1" name="choix7" value="1"><label for="ch7_1">refroidissement</label><br/>
+<input type="radio" id="ch2_2" name="choix7" value="2"><label for="ch7_2">fraicheur</label><br/>
+</p>
+<p>
+<div>Trouvez la lettre qui manque <strong>co..ptoir</strong></div>
+<input type="radio" id="ch1_0" name="choix8" value="0"><label for="ch8_0">n</label><br/>
+<input type="radio" id="ch1_1" name="choix8" value="1"><label for="ch8_1">m</label><br/>
+</p>
+<p>
+<div>Tu (gagner au présent) à la course.</div>
+<input type="radio" id="ch2_0" name="choix9" value="0"><label for="ch9_0">gagneras</label><br/>
+<input type="radio" id="ch2_1" name="choix9" value="1"><label for="ch9_1">gagnais</label><br/>
+<input type="radio" id="ch2_2" name="choix9" value="2"><label for="ch9_2">gagne</label><br/>
+<input type="radio" id="ch2_3" name="choix9" value="3"><label for="ch9_3">gagnes</label>
+</p>
+<p>
+<input type="submit" />
+</p>
+</form>
+    
+   
+</fieldset></div>
+</body>
+</html>

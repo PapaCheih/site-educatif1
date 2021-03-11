@@ -1,0 +1,209 @@
+body{
+    background-color:#3A8EBA;
+    margin-bottom: 2%;
+}
+body>ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F9429E;
+    font-size: 20px;
+    border-style: groove;
+    border-radius: 10%;
+}
+
+li {
+    float: left;
+}
+
+li.deco a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.deco a:hover {
+    background-color: grey;
+}
+li.contact{display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;                     
+    float: right;
+}
+li.contact a:hover{background-color: grey;}
+#gauche{
+    height: ;
+    width: ;
+    left: 0px;
+    top: 210px;
+    position: absolute;
+}
+#droite{
+    height: ;
+    width: ;
+    right: 0px;
+    top: 0px;
+    position: absolute;
+}
+.left{
+    position: absolute;
+    top: 40%;
+    left: 10px;
+    width: 60px;
+    height: 70px;
+    opacity: 0.6;
+}.left:hover{
+    opacity: 1;
+}
+.right{
+    position: absolute;
+    top: 40%;
+    width: 60px;
+    height: 70px;
+    opacity: 0.6;
+}.right:hover{
+    opacity: 1;
+}
+div.conj{height: 250px;
+    width: 400px;
+    border-style: inset;
+    border-radius: 10%;
+    border-width: 10px;
+}
+ol{
+    list-style-type: upper-roman;
+}
+li.contact{
+    float: right;
+}
+span{text-decoration: underline;
+color: green;}
+b{text-decoration: underline;}
+h4{color: red;
+text-decoration: underline;}
+  h4 li {display: none;
+    padding: 0px;
+    text-decoration: none;}
+ div.ort{height: 150px;
+    width: 350px;
+    border-style: inset;
+    border-radius: 10%;
+    border-width: 10px;
+    border-color: grey;
+}
+ div.voc{height: 120px;
+    width: 250px;
+    border-style: inset;
+    border-radius: 10%;
+    border-width: 10px;
+    border-color: grey;
+}
+div.contact{
+    border-style: outset;
+    border-color: grey;
+}
+form#contact {
+  background: #56739A;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 20px;
+  width: 400px;
+}
+form#contact fieldset {
+  border: none;
+  margin-bottom: 10px;
+}
+form#contact fieldset:last-of-type {
+  margin-bottom: 0;
+}
+form#contact legend {
+  color: #384313;
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  text-shadow: 0 1px 1px #c0d576;
+}
+form#contact fieldset fieldset legend {
+  color: #111111;
+  font-size: 13px;
+  font-weight: normal;
+  padding-bottom: 0;
+}
+form#contact ol li {
+  background: #b9cf6a;
+  background: rgba(255,255,255,.3);
+  border-color: #e3ebc3;
+  border-color: rgba(255,255,255,.6);
+  border-style: solid;
+  border-width: 2px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  line-height: 30px;
+  list-style: none;
+  padding: 5px 10px;
+  margin-bottom: 2px;
+}
+form#contact ol ol li {
+  background: none;
+  border: none;
+  float: left;
+}
+form#contact label {
+  float: left;
+  font-size: 13px;
+  width: 110px;
+}
+form#contact fieldset fieldset label {
+  background:none no-repeat left 50%;
+  line-height: 20px;
+  padding: 0 0 0 30px;
+  width: auto;
+}
+
+form#contact fieldset fieldset label:hover {
+  cursor: pointer;
+}
+form#contact input:not([type=radio]),
+form#contact textarea {
+  background: #ffffff;
+  border: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  font: italic 13px Georgia, "Times New Roman", Times, serif;
+  outline: none;
+  padding: 5px;
+  width: 200px;
+}
+form#contact input:not([type=submit]):focus,
+form#contact textarea:focus {
+  background: #eaeaea;
+}
+form#contact button {
+  background: #384313;
+  border: none;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -khtml-border-radius: 20px;
+  border-radius: 20px;
+  color: #ffffff;
+  display: block;
+  font: 18px Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 1px;
+  margin: auto;
+  padding: 7px 25px;
+  text-shadow: 0 1px 1px #000000;
+  text-transform: uppercase;
+}
+form#contact button:hover {
+  background: #1e2506;
+  cursor: pointer;
+}

@@ -1,0 +1,72 @@
+body{
+    background-color:#FDE9E0;
+    margin-bottom: 2%;
+}
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #677179;
+    font-size: 20px;
+    border-style: groove;
+    border-radius: 10%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #00b8e6;
+}
+li.contact{
+    float: right;
+}
+#gauche{
+    height: ;
+    width: ;
+    left: 0px;
+    top: 210px;
+    position: absolute;
+}
+#droite{
+    height: ;
+    width: ;
+    right: 0px;
+    top: 0px;
+    position: absolute;
+}
+.left{
+    position: absolute;
+    top: 40%;
+    left: 10px;
+    width: 60px;
+    height: 70px;
+    opacity: 0.6;
+}.left:hover{
+    opacity: 1;
+}
+.right{
+    position: absolute;
+    top: 40%;
+    right: 10px;
+    width: 60px;
+    height: 70px;
+    opacity: 0.6;
+}.right:hover{
+    opacity: 1;
+}
+div[id='pre']::first-line{color: red;}
+div[id='fut']::first-line{color: red;}
+div[id='pas']::first-line{color: red;}
+div[id='imp']::first-line{color: red;}
+th{padding: 30pt;}
